@@ -48,7 +48,7 @@ const Navbar = () => {
           className={`navbar__container__menu ${toggleIcon ? "active" : ""} `}
         >
           {data.map((item, key) => (
-            <li key={key} className="navbar__container__menu__item" onClick={handleToggleIcon}>
+            <li key={key} onClick={handleToggleIcon} className="navbar__container__menu__item" >
               <Link 
                 className="navbar__container__menu__item__links"
                 to={item.to}
