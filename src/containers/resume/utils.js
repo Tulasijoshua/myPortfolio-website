@@ -1,42 +1,42 @@
 export const data = {
     experience: [
       {
-        title: "Consultant",
-        subTitle: "Miami, FL",
+        title: "Frontend Developer",
+        subTitle: "KtechHub Company",
         description:
           " User Experience, Visual Design",
       },
       {
-        title: "Senior Consultant",
-        subTitle: "London, UK",
+        title: "Frontend intern",
+        subTitle: "Minitte company limited, Accra",
         description:
-          "Web development, Databases, Backend developement",
+          "Web development",
       },
       {
-        title: "Project Manager",
-        subTitle: "Bangalore, INDIA",
+        title: "Frontend intern",
+        subTitle: "HNGx",
         description:
-          "Creative Direction Project Management, Team Leading",
+          "Performing daily task given as a frontend intern",
       },
     ],
     education: [
       {
-        title: "Secondary",
-        subTitle: "ABC School",
+        title: "Tertiary",
+        subTitle: "University of Energy and Natural Resources",
         description:
-          "10th Grade",
+          "Degree",
       },
       {
-        title: "Higher Secondary",
-        subTitle: "ABC School of higher education",
+        title: "Higher School",
+        subTitle: "Kumasi High School",
         description:
-          "12th Grade in Science",
+          "WASSCE",
       },
       {
-        title: "B.Tech",
-        subTitle: "XYZ institute of technology",
+        title: "Programming",
+        subTitle: "ALX",
         description:
-          "Bachelor of technology in computer science",
+          "Fresh Programmer",
       },
     ],
   };
