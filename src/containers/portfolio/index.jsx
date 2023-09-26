@@ -5,7 +5,7 @@ import movie from "../../images/movieApp.png";
 import gallery from "../../images/gallery-img.png";
 import advtodo from "../../images/advTodo.png";
 import eventMgnt from "../../images/event-mgnt.png";
-import ImageFive from "../../images/image5.jpg";
+import tropitech from "../../images/tropitech.png";
 import "./styles.scss";
 import { useState } from "react";
 
@@ -31,15 +31,15 @@ const portfolioData = [
   {
     id: 2,
     name: "Event management system",
-    image: ImageFour,
+    image: eventMgnt,
 
     link: "https://www.dijievents.com/",
   },
   {
     id: 3,
     name: "Tropitech",
-    image: ImageFive,
-    link: "",
+    image: tropitech,
+    link: "https://tulasi-tropiteq.netlify.app/",
   },
 ];
 
