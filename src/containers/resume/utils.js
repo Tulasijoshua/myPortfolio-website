@@ -3,18 +3,21 @@ export const data = {
       {
         title: "Frontend Developer",
         subTitle: "KtechHub Company",
+        date: "2022 - 2023",
         description:
           " User Experience, Visual Design",
       },
       {
         title: "Frontend intern",
         subTitle: "Minitte company limited, Accra",
+        date: "2021 - 2022",
         description:
           "Web development",
       },
       {
         title: "Frontend intern",
         subTitle: "HNGx",
+        date: "2021/02 - 2021/11",
         description:
           "Performing daily task given as a frontend intern",
       },
