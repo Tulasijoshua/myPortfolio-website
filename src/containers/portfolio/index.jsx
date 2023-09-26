@@ -1,10 +1,10 @@
 import React from "react";
 import PageHeaderContent from "../../components/pageHeaderContent";
 import { BsInfoCircleFill } from "react-icons/bs";
-import ImageOne from "../../images/image1.jpg";
-import ImageTwo from "../../images/image2.jpg";
-import ImageThree from "../../images/image3.jpg";
-import ImageFour from "../../images/image4.jpg";
+import movie from "../../images/movieApp.png";
+import gallery from "../../images/gallery-img.png";
+import advtodo from "../../images/advTodo.png";
+import eventMgnt from "../../images/event-mgnt.png";
 import ImageFive from "../../images/image5.jpg";
 import "./styles.scss";
 import { useState } from "react";
@@ -13,19 +13,19 @@ const portfolioData = [
   {
     id: 2,
     name: "Movies web application",
-    image: ImageOne,
+    image: movie,
     link: "https://hngx-movieapp.netlify.app/",
   },
   {
     id: 2,
     name: "Gallery image app",
     link: "https://hngimage-gallery.netlify.app/",
-    image: ImageTwo,
+    image: gallery,
   },
   {
     id: 2,
     name: "Advance todo app",
-    image: ImageThree,
+    image: advtodo,
     link: "https://todo-schoolinka.vercel.app/",
   },
   {
