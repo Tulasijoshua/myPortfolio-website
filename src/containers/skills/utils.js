@@ -42,6 +42,10 @@ export const skillsData = [
       label: "LANGUAGES AND DATABASE",
       data: [
         {
+          skillName: "JAVASCRIPT",
+          percentage: "75",
+        },
+        {
           skillName: "JAVA",
           percentage: "75",
         },
