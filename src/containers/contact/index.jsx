@@ -37,6 +37,9 @@ const Contact = () => {
           }}
         >
           <div className="contact__content__form">
+            <form>
+              
+            </form>
             <div className="contact__content__form__controlswrapper">
               <div>
                 <input
