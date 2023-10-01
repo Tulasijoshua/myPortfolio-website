@@ -29,13 +29,6 @@ const portfolioData = [
     link: "https://todo-schoolinka.vercel.app/",
   },
   {
-    id: 2,
-    name: "Event management system",
-    image: eventMgnt,
-
-    link: "https://www.dijievents.com/",
-  },
-  {
     id: 3,
     name: "Tropitech",
     image: tropitech,

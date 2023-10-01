@@ -5,6 +5,12 @@ import { Animate } from "react-simple-animate";
 import "./styles.scss";
 
 const Contact = () => {
+
+  const submitHandler = (e) => {
+    e.preventDefault();
+    alert('Request submited')
+    e.target.value('')
+  }
   return (
     <section id="contact" className="contact">
       <PageHeaderContent
@@ -36,10 +42,8 @@ const Contact = () => {
             transform: "translateX(0px)",
           }}
         >
-          <div className="contact__content__form">
-            <form>
-              
-            </form>
+          <form onSubmit={submitHandler} className="contact__content__form">
+        
             <div className="contact__content__form__controlswrapper">
               <div>
                 <input
@@ -77,7 +81,7 @@ const Contact = () => {
               </div>
             </div>
             <button>Submit</button>
-          </div>
+          </form>
         </Animate>
       </div>
     </section>
