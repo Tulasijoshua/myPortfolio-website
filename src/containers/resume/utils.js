@@ -2,7 +2,7 @@ export const data = {
     experience: [
       {
         title: "Frontend Developer",
-        subTitle: "KtechHub Company",
+        subTitle: "CoupCode",
         date: "2022 - 2023",
         description:
           " User Experience, Visual Design",
