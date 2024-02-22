@@ -4,12 +4,25 @@ import { BsInfoCircleFill } from "react-icons/bs";
 import movie from "../../images/movieApp.png";
 import gallery from "../../images/gallery-img.png";
 import advtodo from "../../images/advTodo.png";
-import eventMgnt from "../../images/event-mgnt.png";
 import tropitech from "../../images/tropitech.png";
+import dijievents from "../../images/dijievents.png"
+import penora from "../../images/penora.png"
 import "./styles.scss";
 import { useState } from "react";
 
 const portfolioData = [
+  {
+    id: 3,
+    name: "Penora Skin Care",
+    image: penora,
+    link: "https://www.penoraskincare.com/",
+  },
+  {
+    id: 3,
+    name: "Event Management System (Dijievents)",
+    image: dijievents,
+    link: "https://www.dijievents.com/",
+  },
   {
     id: 2,
     name: "Movies web application",
@@ -43,11 +56,11 @@ const filterData = [
   },
   {
     filterId: 2,
-    label: "Developement",
+    label: "Personal",
   },
   {
     filterId: 3,
-    label: "Design",
+    label: "Development",
   },
 ];
 
