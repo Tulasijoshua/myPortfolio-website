@@ -6,11 +6,19 @@ import gallery from "../../images/gallery-img.png";
 import advtodo from "../../images/advTodo.png";
 import tropitech from "../../images/tropitech.png";
 import dijievents from "../../images/dijievents.png"
-import penora from "../../images/penora.png"
+import predictWin from "../../images/predict-win.png"
+import penora from "../../images/penora.png";
+import solidRock from "../../images/solid-rock.png";
 import "./styles.scss";
 import { useState } from "react";
 
 const portfolioData = [
+  {
+    id: 3,
+    name: "Solid Rock School",
+    image: solidRock,
+    link: "https://www.solidrockfoundationschools.com/",
+  },
   {
     id: 3,
     name: "Penora Skin Care",
@@ -40,6 +48,12 @@ const portfolioData = [
     name: "Advance todo app",
     image: advtodo,
     link: "https://todo-schoolinka.vercel.app/",
+  },
+  {
+    id: 2,
+    name: "Predict and Win",
+    image: predictWin,
+    link: "https://predic-and-win.netlify.app",
   },
   {
     id: 3,
