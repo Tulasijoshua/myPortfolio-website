@@ -122,7 +122,7 @@ const Portfolio = () => {
                 {index === hoveredValue && (
                   <div>
                     <p>{item.name}</p>
-                    <a href={item.link}>
+                    <a href={item.link} target="_blank">
                       <button >
 
                         Visit</button>
