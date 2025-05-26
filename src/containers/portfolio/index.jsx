@@ -43,12 +43,12 @@ const portfolioData = [
     link: "https://hngimage-gallery.netlify.app/",
     image: gallery,
   },
-  {
-    id: 2,
-    name: "Advance todo app",
-    image: advtodo,
-    link: "https://todo-schoolinka.vercel.app/",
-  },
+  // {
+  //   id: 2,
+  //   name: "Advance todo app",
+  //   image: advtodo,
+  //   link: "https://todo-schoolinka.vercel.app/",
+  // },
   {
     id: 2,
     name: "Predict and Win",
