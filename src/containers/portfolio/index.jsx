@@ -5,9 +5,11 @@ import movie from "../../images/movieApp.png";
 import gallery from "../../images/gallery-img.png";
 import advtodo from "../../images/advTodo.png";
 import tropitech from "../../images/tropitech.png";
-import dijievents from "../../images/dijievents.png"
+import fabbImg from "../../images/fabb.png"
+import dktelecom from "../../images/dk-telecom.png"
 import predictWin from "../../images/predict-win.png"
-import penora from "../../images/penora.png";
+import codersclutch from "../../images/coders-clutch.png";
+import buddysolve from "../../images/buddy-solve.png";
 import solidRock from "../../images/solid-rock.png";
 import "./styles.scss";
 import { useState } from "react";
@@ -21,15 +23,27 @@ const portfolioData = [
   },
   {
     id: 3,
-    name: "Penora Skin Care",
-    image: penora,
-    link: "https://www.penoraskincare.com/",
+    name: "Coders Clutch Website",
+    image: codersclutch,
+    link: "https://coders-clutch-site.vercel.app/",
   },
   {
     id: 3,
-    name: "Event Management System (Dijievents)",
-    image: dijievents,
-    link: "https://www.dijievents.com/",
+    name: "Buddy Solve",
+    image: buddysolve,
+    link: "https://www.buddysolve.com/",
+  },
+  {
+    id: 3,
+    name: "FaBB Foundation",
+    image: fabbImg,
+    link: "https://anchor-for-all-three.vercel.app/",
+  },
+  {
+    id: 3,
+    name: "DK Telecom",
+    image: dktelecom,
+    link: "https://heirstechnologies.vercel.app/",
   },
   {
     id: 2,
@@ -43,12 +57,12 @@ const portfolioData = [
     link: "https://hngimage-gallery.netlify.app/",
     image: gallery,
   },
-  // {
-  //   id: 2,
-  //   name: "Advance todo app",
-  //   image: advtodo,
-  //   link: "https://todo-schoolinka.vercel.app/",
-  // },
+  {
+    id: 2,
+    name: "Advance todo app",
+    image: advtodo,
+    link: "https://todo-schoolinka.vercel.app/",
+  },
   {
     id: 2,
     name: "Predict and Win",
